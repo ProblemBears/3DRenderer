@@ -1,0 +1,57 @@
+# Visual Studio-specific files
+.vs/
+*.suo
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.idb
+*.obj
+*.tlog
+*.ipch
+*.log
+*.ilk
+*.exp
+*.cache
+*.db
+*.opendb
+*.VC.db
+
+# Build output directories
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# CMake and other generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+build/
+
+# DLLs and executables
+*.dll
+*.exe
+*.lib
+*.a
+*.o
+*.so
+
+# ...except SDL3.dll
+!SDL3.dll
+
+# SDL-related temporary/generated files
+*.d
+*.i
+*.s
+
+# Ignore user-specific configuration
+*.user
+*.ncb
+*.sdf
+
+# Git metadata
+.git/
